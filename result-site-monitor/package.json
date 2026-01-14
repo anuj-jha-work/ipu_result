@@ -1,0 +1,15 @@
+{
+  "name": "result-site-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/checker.js",
+  "scripts": {
+    "start": "node src/checker.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.12",
+    "twilio": "^5.11.2"
+  }
+}
