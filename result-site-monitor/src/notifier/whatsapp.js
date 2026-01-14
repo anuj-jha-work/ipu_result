@@ -12,7 +12,7 @@ class WhatsAppNotifier {
   }
 
   async send(message) {
-    if (!config.whatsapp.enabled) {
+    if (!config.whatsapp.enabled || !this.client) {
       console.log('WhatsApp notifications are disabled. Skipping WhatsApp.');
       return false;
     }

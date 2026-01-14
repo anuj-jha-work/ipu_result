@@ -43,10 +43,7 @@ cd result-site-monitor
 npm install
 ```
 
-3. Configure environment variables:
-```bash
-# Edit the .env file with your settings
-```
+3. Configure environment variables by editing the `.env` file with your settings
 
 ## Configuration
 
