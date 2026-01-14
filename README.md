@@ -1,2 +1,0 @@
-# ipu_result
-A TOOL TO GET UPDATE WHEN RESULT SITE IS UP.
